@@ -59,7 +59,7 @@ class Response
       $this->_responseData['statusCode'] = $this->_httpStatusCode;
       $this->_responseData['success'] = $this->_success;
       $this->_responseData['messages'] = $this->_messages;
-      $this->_responseData['data'] = $this->data;
+      $this->_responseData['data'] = $this->_data;
     }
 
     echo json_encode($this->_responseData);
